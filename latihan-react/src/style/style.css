@@ -1,0 +1,95 @@
+.navbar {
+    width: 100%;
+    background-color: red;
+    height: 58px;
+    box-shadow: 0 1px 4px #333;
+    position: fixed;
+}
+
+.content
+{
+	margin-right: auto;
+	margin-left: auto;
+	width: 1170px;
+}
+
+.header img
+{
+	height: 25px;
+	padding: 15px 15px;
+	line-height: 58px;
+}
+
+.navbar-right
+{
+	float: right;
+}
+
+.navbar-right ul li {
+
+    position: relative;
+    display: block;
+    padding-top: 22px;
+    color: #fff;
+    padding-right: 50px;
+    float: left;
+
+}
+
+ul {
+
+    list-style-type: none;
+    margin: 0;
+        margin-top: 0px;
+    padding: 0;
+    overflow: hidden;
+    margin-top: -61px;
+}
+
+.template {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.kotak
+{
+    background: linear-gradient(135deg, #ea322a 40%, #ac2222 60%);
+	color: #fff;
+	border: 1px solid
+    #dadada;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+    display: flex;
+}
+
+.sideKiri
+{
+	width: 75%;
+}
+
+.sideKanan
+{
+	width: 25%;
+	float: left;
+
+}
+
+.kotakBanner
+{
+	height: 175px;
+background-size: contain;
+border-radius: 10px;
+padding: 20px;
+text-align: left;
+}
+
+.kotakBanner .up
+{
+	margin-bottom: 50px;
+}
