@@ -35,12 +35,76 @@ class App extends Component{
 						<div className="sideKanan">
 							<div className="kotakBanner">
 								<div className="up">
-									<img src={require('../images/mini-banner-1.png')} alt=""/>
+									<h4>
+										<b>Berlangganan IndiHome Paket Premium
+										</b>
+									</h4>
+									<div className="button">
+										Lihat Detail
+									</div>
+								</div>
+								<div className="down">
+									<h4>
+										<b>Berlangganan IndiHome Paket Gamer!
+										</b>
+									</h4>
+									<div className="button">
+										Lihat Detail
+									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
+				<div className="content unggulan">
+					<h2>Add-on Unggulan</h2>
+					<div className="list-img">
+						<ul>
+							<li><img src={require('../images/001.jpg')} height="130"/></li>
+							<li><img src={require('../images/002.jpg')} height="130"/></li>
+							<li><img src={require('../images/003.jpg')} height="130"/></li>
+							<li><img src={require('../images/004.jpg')} height="130"/></li>
+						</ul>
+					</div>
+	      		</div>
+
+	      		<div id="langganan">
+		      		<div className="top">
+		      			<h3>Berlangganan IndiHome dan nikmati konten terbaik di dalam layar TV Anda</h3>
+		      			<div>
+		      				<ul>
+								<li><img src={require('../logo/0001.png')} height="30"/></li>
+								<li><img src={require('../logo/0002.png')} height="30"/></li>
+								<li><img src={require('../logo/0003.png')} height="30"/></li>
+							</ul>
+		      			</div>
+		      		</div>
+
+		      		<div className="bottom"> 
+		      			<div className="img">
+		      				<img src={require('../images/0001.jpg')}/>
+		      				<h2>LOMBA EPG</h2>
+		      				<b>IndiHome TV</b>
+		      			</div>
+		      			<div className="img">
+		      				<img src={require('../images/0002.jpg')}/>
+		      				<h2>LOMBA EPG</h2>
+		      				<b>IndiHome TV</b>
+		      			</div>
+		      			<div className="img">
+		      				<img src={require('../images/0003.jpg')}/>
+		      				<h2>LOMBA EPG</h2>
+		      				<b>IndiHome TV</b>
+		      			</div>
+		      			<div className="img">
+		      				<img src={require('../images/0004.jpg')}/>
+		      				<h2>LOMBA EPG</h2>
+		      				<b>IndiHome TV</b>
+		      			</div>
+		      		</div>
+		      	</div>
+
+		      	
 			</div>
 		)
 	}

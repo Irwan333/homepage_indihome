@@ -1,3 +1,13 @@
+*
+{
+	padding: 0px;
+	margin: 0px;
+}
+
+body
+{
+	font-family: "Arial", sans-serif;
+}
 .navbar {
     width: 100%;
     background-color: red;
@@ -47,7 +57,7 @@ ul {
 }
 
 .template {
-    padding: 80px 0;
+    padding-top: 80px;
     text-align: center;
 }
 
@@ -80,16 +90,137 @@ ul {
 
 }
 
-.kotakBanner
-{
-	height: 175px;
-background-size: contain;
-border-radius: 10px;
-padding: 20px;
-text-align: left;
-}
 
 .kotakBanner .up
 {
-	margin-bottom: 50px;
+	background-image: url('../images/mini-banner-1.png');
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 175px;
+	margin-bottom: 48px;
+	border-radius: 10px;
+}
+
+.kotakBanner .down
+{
+	background-image: url('../images/mini-banner-2.png');
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 175px;
+	border-radius: 10px;
+}
+
+h4
+{
+	font-weight: 500;
+	line-height: 1.1;
+	color: white;
+	text-align: left;
+	padding-top: 40px;
+	padding-left: 30px;
+}
+
+.button
+{
+	background-color: #ec1e37;
+	border-color: #ec1e37;
+	border-radius: 50px;
+	color: #fff;
+	padding: 6px 12px;
+	width: 81px;
+	margin-left: 30px;
+	margin-top: 19px;
+}
+
+.addon
+{
+	margin-top: 12px;
+}
+
+.addon .content h4
+{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-weight: 500;
+	line-height: 1.1;
+	color: black;
+}
+
+.unggulan{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.unggulan .list-img ul{
+	margin-top: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.unggulan .list-img ul li{
+	list-style: none;
+	border-radius: 10px;
+}
+
+#langganan{
+	background-color: #121528;
+	width: 100vw;
+	position: relative;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	color: white;
+}
+
+.top{
+	padding-left: 150px;
+	padding-right: 150px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.top ul li{
+	list-style: none;
+	float: left;
+	padding-top: 70px;
+}
+
+.bottom{
+	padding-left: 150px;
+	padding-right: 150px;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+
+.bottom .img h2
+{
+	font-size: 14px;
+}
+
+.bottom .img b
+{
+	font-size: 11px;
+}
+.atas .boxkanan .label{
+	padding-right: 20px;
+}
+
+.bawah{
+	display: flex;
+	justify-content: space-between;
+}
+
+.bawah ul li{
+	list-style: none;
+}
+
+.bawah ._4{
+	width: 30%;
+}
+
+.bawah ._1{
+	width: 30%;
 }
