@@ -1,13 +1,12 @@
-*
-{
-	padding: 0px;
-	margin: 0px;
+* {
+    padding: 0px;
+    margin: 0px;
 }
 
-body
-{
-	font-family: "Arial", sans-serif;
+body {
+    font-family: "Arial", sans-serif;
 }
+
 .navbar {
     width: 100%;
     background-color: red;
@@ -16,44 +15,51 @@ body
     position: fixed;
 }
 
-.content
-{
-	margin-right: auto;
-	margin-left: auto;
-	width: 1170px;
+.content {
+    margin-right: auto;
+    margin-left: auto;
+    width: 1170px;
 }
 
-.header img
-{
-	height: 25px;
-	padding: 15px 15px;
-	line-height: 58px;
+.header img {
+    height: 25px;
+    padding: 15px 15px;
+    line-height: 58px;
 }
 
-.navbar-right
-{
-	float: right;
+.navbar-right {
+    float: right;
 }
 
 .navbar-right ul li {
 
-    position: relative;
-    display: block;
-    padding-top: 22px;
+    padding-top: 19px;
     color: #fff;
     padding-right: 50px;
     float: left;
+    padding-bottom: 19px;
 
 }
 
-ul {
+.pojok
+{
+	margin-right: -51px;
+}
+
+.navbar-right ul {
 
     list-style-type: none;
     margin: 0;
-        margin-top: 0px;
+    margin-top: 0px;
     padding: 0;
     overflow: hidden;
     margin-top: -61px;
+}
+
+.nav-user {
+    background-color: #d51d33;
+    padding: 5px 10px;
+    border-radius: 20px;
 }
 
 .template {
@@ -61,12 +67,10 @@ ul {
     text-align: center;
 }
 
-.kotak
-{
+.kotak {
     background: linear-gradient(135deg, #ea322a 40%, #ac2222 60%);
-	color: #fff;
-	border: 1px solid
-    #dadada;
+    color: #fff;
+    border: 1px solid #dadada;
     border-radius: 20px;
     margin-bottom: 10px;
     padding: 20px;
@@ -78,149 +82,235 @@ ul {
     display: flex;
 }
 
-.sideKiri
-{
-	width: 75%;
+.sideKiri {
+    width: 75%;
 }
 
-.sideKanan
-{
-	width: 25%;
-	float: left;
+.sideKanan {
+    width: 25%;
+    float: left;
 
 }
 
 
-.kotakBanner .up
+.kotakBanner .up {
+    background-image: url('../images/mini-banner-1.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 175px;
+    margin-bottom: 48px;
+    border-radius: 10px;
+}
+
+.kotakBanner .down {
+    background-image: url('../images/mini-banner-2.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 175px;
+    border-radius: 10px;
+}
+
+h4 {
+    font-weight: 500;
+    line-height: 1.1;
+    color: white;
+    text-align: left;
+    padding-top: 40px;
+    padding-left: 30px;
+}
+
+.card
 {
-	background-image: url('../images/mini-banner-1.png');
-	background-repeat: no-repeat;
+	width: 15rem;
+    border-radius: 10px;
+    border: solid #ccc 1px;
+}
+
+.card img
+{
 	width: 100%;
-	height: 175px;
-	margin-bottom: 48px;
-	border-radius: 10px;
 }
 
-.kotakBanner .down
+.card h4
 {
-	background-image: url('../images/mini-banner-2.png');
-	background-repeat: no-repeat;
-	width: 100%;
-	height: 175px;
-	border-radius: 10px;
-}
-
-h4
-{
-	font-weight: 500;
-	line-height: 1.1;
-	color: white;
-	text-align: left;
-	padding-top: 40px;
-	padding-left: 30px;
-}
-
-.button
-{
-	background-color: #ec1e37;
-	border-color: #ec1e37;
-	border-radius: 50px;
-	color: #fff;
-	padding: 6px 12px;
-	width: 81px;
-	margin-left: 30px;
-	margin-top: 19px;
-}
-
-.addon
-{
-	margin-top: 12px;
-}
-
-.addon .content h4
-{
-	margin-top: 10px;
-	margin-bottom: 10px;
-	font-weight: 500;
-	line-height: 1.1;
 	color: black;
 }
 
-.unggulan{
-	margin-top: 10px;
-	margin-bottom: 10px;
+.card .container
+{
+    padding: 0px 10px;
 }
 
-.unggulan .list-img ul{
-	margin-top: 10px;
+.card .container h4 b
+ {
+    float: left;
+    margin-top: -30px;
+    margin-left: -30px;
+}
+
+.card p {
+    float: right;
+    margin-top: -30px;
+}
+
+.button {
+    background-color: #ec1e37;
+    border-color: #ec1e37;
+    border-radius: 50px;
+    color: #fff;
+    padding: 6px 12px;
+    width: 81px;
+    margin-left: 30px;
+    margin-top: 19px;
+}
+
+.addon {
+    margin-top: 12px;
+}
+
+.addon .content h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    line-height: 1.1;
+    color: black;
+}
+
+.unggulan {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.unggulan .list-img ul {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.unggulan .list-img ul li {
+    list-style: none;
+    border-radius: 10px;
+}
+
+#langganan {
+    background-color: #121528;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    color: white;
+}
+
+.top {
+    padding-left: 150px;
+    padding-right: 150px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.top ul li {
+    list-style: none;
+    float: left;
+    padding-top: 15px;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.bottom .img h2 {
+    font-size: 14px;
+}
+
+.bottom .img b {
+    font-size: 11px;
+}
+
+.atas .boxkanan .label {
+    padding-right: 20px;
+}
+
+.bawah {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bawah ul li {
+    list-style: none;
+}
+
+.bawah ._4 {
+    width: 30%;
+}
+
+.bawah ._1 {
+    width: 30%;
+}
+
+#footer
+{
+	color: #ccc;
+	font-size: 13px;
+	margin-bottom: 30px;
+}
+
+.hitam
+{
+	color: black;
+}
+
+ .top_{
 	display: flex;
 	justify-content: space-between;
-}
-
-.unggulan .list-img ul li{
-	list-style: none;
-	border-radius: 10px;
-}
-
-#langganan{
-	background-color: #121528;
-	width: 100vw;
-	position: relative;
-	padding-top: 80px;
-	padding-bottom: 80px;
-	color: white;
-}
-
-.top{
-	padding-left: 150px;
-	padding-right: 150px;
-	text-align: center;
-	display: flex;
-	justify-content: center;
 	align-items: center;
-	flex-direction: column;
+	margin-top: 35px;
 }
 
-.top ul li{
-	list-style: none;
+ .top_ .left_ ul li{
 	float: left;
-	padding-top: 70px;
+	list-style: none;
+	text-align: center;
+	margin-right: 10px;
 }
 
-.bottom{
-	padding-left: 150px;
-	padding-right: 150px;
-	display: flex;
-	justify-content: space-between;
-	margin-top: 20px;
-}
-
-.bottom .img h2
-{
-	font-size: 14px;
-}
-
-.bottom .img b
-{
-	font-size: 11px;
-}
-.atas .boxkanan .label{
+ .top_ .right_ .label{
 	padding-right: 20px;
 }
 
-.bawah{
+ .bottom_{
+	margin-top: 30px;
 	display: flex;
 	justify-content: space-between;
 }
 
-.bawah ul li{
+.bottom_1
+{
+	color: white;
+}
+
+ .bottom_ ul li{
 	list-style: none;
 }
 
-.bawah ._4{
+ .bottom_ .bottom_4{
 	width: 30%;
 }
 
-.bawah ._1{
+ .bottom_ .bottom_1{
+	background-image: url('../images/download.png');
+	padding: 20px;
+	border-radius: 15px;
 	width: 30%;
+	height: 200px;
+}
+
+.asisten img
+{
+	height: 100px;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
 }
